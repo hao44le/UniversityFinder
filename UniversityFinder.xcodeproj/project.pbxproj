@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0A5A7A21A7ECBFC007D73DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A5A7A11A7ECBFC007D73DF /* AppDelegate.swift */; };
+		C0A5A7A51A7ECBFC007D73DF /* UniversityFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0A5A7A31A7ECBFC007D73DF /* UniversityFinder.xcdatamodeld */; };
+		C0A5A7AA1A7ECBFC007D73DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A5A7A81A7ECBFC007D73DF /* Main.storyboard */; };
+		C0A5A7AC1A7ECBFC007D73DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A5A7AB1A7ECBFC007D73DF /* Images.xcassets */; };
+		C0A5A7AF1A7ECBFC007D73DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0A5A7AD1A7ECBFC007D73DF /* LaunchScreen.xib */; };
+		C0A5A7BB1A7ECBFC007D73DF /* UniversityFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A5A7BA1A7ECBFC007D73DF /* UniversityFinderTests.swift */; };
+		C0A5A7C51A7ECC63007D73DF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A5A7C41A7ECC63007D73DF /* SystemConfiguration.framework */; };
+		C0A5A7C71A7ECC69007D73DF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A5A7C61A7ECC69007D73DF /* QuartzCore.framework */; };
+		C0A5A7C91A7ECC6E007D73DF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A5A7C81A7ECC6E007D73DF /* OpenGLES.framework */; };
+		C0A5A7CB1A7ECC75007D73DF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A5A7CA1A7ECC75007D73DF /* libz.dylib */; };
+		C0A5A7CD1A7ECC7D007D73DF /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A5A7CC1A7ECC7D007D73DF /* libicucore.dylib */; };
+		C0A5A7CF1A7ECC89007D73DF /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A5A7CE1A7ECC89007D73DF /* libc++.dylib */; };
+		C0A5A7D11A7ECC90007D73DF /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A5A7D01A7ECC90007D73DF /* ImageIO.framework */; };
+		C0A5A7D31A7ECC96007D73DF /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A5A7D21A7ECC96007D73DF /* GLKit.framework */; };
+		C0A5A7D51A7ECC9D007D73DF /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A5A7D41A7ECC9D007D73DF /* CoreText.framework */; };
+		C0A5A7D71A7ECCA3007D73DF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A5A7D61A7ECCA3007D73DF /* CoreData.framework */; };
+		C0A5A7D91A7ECCA9007D73DF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A5A7D81A7ECCA9007D73DF /* AVFoundation.framework */; };
+		C0A5A7DB1A7ECCB1007D73DF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A5A7DA1A7ECCB1007D73DF /* MapKit.framework */; };
+		C0A5A7DD1A7ECCB7007D73DF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A5A7DC1A7ECCB7007D73DF /* CoreLocation.framework */; };
+		C0A5A7DF1A7ECCD0007D73DF /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C0A5A7DE1A7ECCD0007D73DF /* GoogleMaps.bundle */; };
+		C0A5A7E11A7ECD0A007D73DF /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A5A7E01A7ECD0A007D73DF /* GoogleMaps.framework */; };
+		C0A5A7E71A7ECD21007D73DF /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A5A7E31A7ECD21007D73DF /* RAMAnimatedTabBarController.swift */; };
+		C0A5A7E81A7ECD21007D73DF /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A5A7E41A7ECD21007D73DF /* RAMItemAnimationProtocol.swift */; };
+		C0A5A7E91A7ECD21007D73DF /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A5A7E61A7ECD21007D73DF /* CHCSVParser.m */; };
+		C0A5A81E1A7ECD3D007D73DF /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A5A7ED1A7ECD3D007D73DF /* RAMBounceAnimation.swift */; };
+		C0A5A81F1A7ECD3D007D73DF /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A5A7EF1A7ECD3D007D73DF /* RAMFrameItemAnimation.swift */; };
+		C0A5A8201A7ECD3D007D73DF /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A5A7F11A7ECD3D007D73DF /* RAMFumeAnimation.swift */; };
+		C0A5A8211A7ECD3D007D73DF /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A5A7F31A7ECD3D007D73DF /* RAMRotationAnimation.swift */; };
+		C0A5A8221A7ECD3D007D73DF /* RAMTransitionItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A5A7F51A7ECD3D007D73DF /* RAMTransitionItemAnimation.swift */; };
+		C0A5A8491A7ECD7D007D73DF /* ToolsAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0A5A8481A7ECD7D007D73DF /* ToolsAnimation.plist */; };
+		C0A5A84C1A7ECE44007D73DF /* 1.csv in Resources */ = {isa = PBXBuildFile; fileRef = C0A5A84B1A7ECE44007D73DF /* 1.csv */; };
+		C0A5A84E1A7ECE49007D73DF /* CS.csv in Resources */ = {isa = PBXBuildFile; fileRef = C0A5A84D1A7ECE49007D73DF /* CS.csv */; };
+		C0A5A8561A7ED021007D73DF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A5A84F1A7ED021007D73DF /* MapViewController.swift */; };
+		C0A5A8571A7ED021007D73DF /* RankingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A5A8501A7ED021007D73DF /* RankingCollectionViewCell.swift */; };
+		C0A5A8581A7ED021007D73DF /* RankingCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A5A8511A7ED021007D73DF /* RankingCollectionViewController.swift */; };
+		C0A5A8591A7ED021007D73DF /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A5A8521A7ED021007D73DF /* School.swift */; };
+		C0A5A85A1A7ED021007D73DF /* SchoolDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A5A8531A7ED021007D73DF /* SchoolDetailViewController.swift */; };
+		C0A5A85B1A7ED021007D73DF /* SchoolSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A5A8541A7ED021007D73DF /* SchoolSearchTableViewController.swift */; };
+		C0A5A85C1A7ED021007D73DF /* SchoolStreetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A5A8551A7ED021007D73DF /* SchoolStreetViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0A5A7B51A7ECBFC007D73DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0A5A7941A7ECBFC007D73DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0A5A79B1A7ECBFC007D73DF;
+			remoteInfo = UniversityFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0A5A79C1A7ECBFC007D73DF /* UniversityFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversityFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A5A7A01A7ECBFC007D73DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0A5A7A11A7ECBFC007D73DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0A5A7A41A7ECBFC007D73DF /* UniversityFinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UniversityFinder.xcdatamodel; sourceTree = "<group>"; };
+		C0A5A7A91A7ECBFC007D73DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0A5A7AB1A7ECBFC007D73DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C0A5A7AE1A7ECBFC007D73DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C0A5A7B41A7ECBFC007D73DF /* UniversityFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniversityFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A5A7B91A7ECBFC007D73DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0A5A7BA1A7ECBFC007D73DF /* UniversityFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityFinderTests.swift; sourceTree = "<group>"; };
+		C0A5A7C41A7ECC63007D73DF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C0A5A7C61A7ECC69007D73DF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C0A5A7C81A7ECC6E007D73DF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C0A5A7CA1A7ECC75007D73DF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		C0A5A7CC1A7ECC7D007D73DF /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		C0A5A7CE1A7ECC89007D73DF /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		C0A5A7D01A7ECC90007D73DF /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		C0A5A7D21A7ECC96007D73DF /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		C0A5A7D41A7ECC9D007D73DF /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		C0A5A7D61A7ECCA3007D73DF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C0A5A7D81A7ECCA9007D73DF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C0A5A7DA1A7ECCB1007D73DF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C0A5A7DC1A7ECCB7007D73DF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C0A5A7DE1A7ECCD0007D73DF /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
+		C0A5A7E01A7ECD0A007D73DF /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		C0A5A7E21A7ECD20007D73DF /* UniversityFinder-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UniversityFinder-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		C0A5A7E31A7ECD21007D73DF /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
+		C0A5A7E41A7ECD21007D73DF /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
+		C0A5A7E51A7ECD21007D73DF /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
+		C0A5A7E61A7ECD21007D73DF /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
+		C0A5A7ED1A7ECD3D007D73DF /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBounceAnimation.swift; sourceTree = "<group>"; };
+		C0A5A7EF1A7ECD3D007D73DF /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
+		C0A5A7F11A7ECD3D007D73DF /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFumeAnimation.swift; sourceTree = "<group>"; };
+		C0A5A7F31A7ECD3D007D73DF /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMRotationAnimation.swift; sourceTree = "<group>"; };
+		C0A5A7F51A7ECD3D007D73DF /* RAMTransitionItemAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMTransitionItemAnimation.swift; sourceTree = "<group>"; };
+		C0A5A8481A7ECD7D007D73DF /* ToolsAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ToolsAnimation.plist; sourceTree = "<group>"; };
+		C0A5A84B1A7ECE44007D73DF /* 1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1.csv; sourceTree = "<group>"; };
+		C0A5A84D1A7ECE49007D73DF /* CS.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CS.csv; sourceTree = "<group>"; };
+		C0A5A84F1A7ED021007D73DF /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C0A5A8501A7ED021007D73DF /* RankingCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingCollectionViewCell.swift; sourceTree = "<group>"; };
+		C0A5A8511A7ED021007D73DF /* RankingCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingCollectionViewController.swift; sourceTree = "<group>"; };
+		C0A5A8521A7ED021007D73DF /* School.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		C0A5A8531A7ED021007D73DF /* SchoolDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolDetailViewController.swift; sourceTree = "<group>"; };
+		C0A5A8541A7ED021007D73DF /* SchoolSearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolSearchTableViewController.swift; sourceTree = "<group>"; };
+		C0A5A8551A7ED021007D73DF /* SchoolStreetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolStreetViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0A5A7991A7ECBFC007D73DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A5A7DD1A7ECCB7007D73DF /* CoreLocation.framework in Frameworks */,
+				C0A5A7DB1A7ECCB1007D73DF /* MapKit.framework in Frameworks */,
+				C0A5A7D91A7ECCA9007D73DF /* AVFoundation.framework in Frameworks */,
+				C0A5A7D71A7ECCA3007D73DF /* CoreData.framework in Frameworks */,
+				C0A5A7D51A7ECC9D007D73DF /* CoreText.framework in Frameworks */,
+				C0A5A7D31A7ECC96007D73DF /* GLKit.framework in Frameworks */,
+				C0A5A7D11A7ECC90007D73DF /* ImageIO.framework in Frameworks */,
+				C0A5A7CF1A7ECC89007D73DF /* libc++.dylib in Frameworks */,
+				C0A5A7E11A7ECD0A007D73DF /* GoogleMaps.framework in Frameworks */,
+				C0A5A7CD1A7ECC7D007D73DF /* libicucore.dylib in Frameworks */,
+				C0A5A7CB1A7ECC75007D73DF /* libz.dylib in Frameworks */,
+				C0A5A7C91A7ECC6E007D73DF /* OpenGLES.framework in Frameworks */,
+				C0A5A7C71A7ECC69007D73DF /* QuartzCore.framework in Frameworks */,
+				C0A5A7C51A7ECC63007D73DF /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A5A7B11A7ECBFC007D73DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0A5A7931A7ECBFC007D73DF = {
+			isa = PBXGroup;
+			children = (
+				C0A5A84A1A7ECDB6007D73DF /* Library */,
+				C0A5A79E1A7ECBFC007D73DF /* UniversityFinder */,
+				C0A5A7B71A7ECBFC007D73DF /* UniversityFinderTests */,
+				C0A5A79D1A7ECBFC007D73DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0A5A79D1A7ECBFC007D73DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0A5A79C1A7ECBFC007D73DF /* UniversityFinder.app */,
+				C0A5A7B41A7ECBFC007D73DF /* UniversityFinderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0A5A79E1A7ECBFC007D73DF /* UniversityFinder */ = {
+			isa = PBXGroup;
+			children = (
+				C0A5A7E21A7ECD20007D73DF /* UniversityFinder-Bridging-Header.h */,
+				C0A5A7A11A7ECBFC007D73DF /* AppDelegate.swift */,
+				C0A5A84F1A7ED021007D73DF /* MapViewController.swift */,
+				C0A5A8501A7ED021007D73DF /* RankingCollectionViewCell.swift */,
+				C0A5A8511A7ED021007D73DF /* RankingCollectionViewController.swift */,
+				C0A5A8521A7ED021007D73DF /* School.swift */,
+				C0A5A8531A7ED021007D73DF /* SchoolDetailViewController.swift */,
+				C0A5A8541A7ED021007D73DF /* SchoolSearchTableViewController.swift */,
+				C0A5A8551A7ED021007D73DF /* SchoolStreetViewController.swift */,
+				C0A5A7A81A7ECBFC007D73DF /* Main.storyboard */,
+				C0A5A7AB1A7ECBFC007D73DF /* Images.xcassets */,
+				C0A5A7AD1A7ECBFC007D73DF /* LaunchScreen.xib */,
+				C0A5A7A31A7ECBFC007D73DF /* UniversityFinder.xcdatamodeld */,
+				C0A5A79F1A7ECBFC007D73DF /* Supporting Files */,
+			);
+			path = UniversityFinder;
+			sourceTree = "<group>";
+		};
+		C0A5A79F1A7ECBFC007D73DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0A5A84B1A7ECE44007D73DF /* 1.csv */,
+				C0A5A84D1A7ECE49007D73DF /* CS.csv */,
+				C0A5A7A01A7ECBFC007D73DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0A5A7B71A7ECBFC007D73DF /* UniversityFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0A5A7BA1A7ECBFC007D73DF /* UniversityFinderTests.swift */,
+				C0A5A7B81A7ECBFC007D73DF /* Supporting Files */,
+			);
+			path = UniversityFinderTests;
+			sourceTree = "<group>";
+		};
+		C0A5A7B81A7ECBFC007D73DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0A5A7B91A7ECBFC007D73DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0A5A7EB1A7ECD3D007D73DF /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				C0A5A7EC1A7ECD3D007D73DF /* BounceAnimation */,
+				C0A5A7EE1A7ECD3D007D73DF /* FrameAnimation */,
+				C0A5A7F01A7ECD3D007D73DF /* FumeAnimation */,
+				C0A5A7F21A7ECD3D007D73DF /* RotationAnimation */,
+				C0A5A7F41A7ECD3D007D73DF /* TransitionAniamtions */,
+			);
+			name = Animations;
+			path = "../University-Finder-master/Animations";
+			sourceTree = "<group>";
+		};
+		C0A5A7EC1A7ECD3D007D73DF /* BounceAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C0A5A7ED1A7ECD3D007D73DF /* RAMBounceAnimation.swift */,
+			);
+			path = BounceAnimation;
+			sourceTree = "<group>";
+		};
+		C0A5A7EE1A7ECD3D007D73DF /* FrameAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C0A5A7EF1A7ECD3D007D73DF /* RAMFrameItemAnimation.swift */,
+			);
+			path = FrameAnimation;
+			sourceTree = "<group>";
+		};
+		C0A5A7F01A7ECD3D007D73DF /* FumeAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C0A5A7F11A7ECD3D007D73DF /* RAMFumeAnimation.swift */,
+			);
+			path = FumeAnimation;
+			sourceTree = "<group>";
+		};
+		C0A5A7F21A7ECD3D007D73DF /* RotationAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C0A5A7F31A7ECD3D007D73DF /* RAMRotationAnimation.swift */,
+			);
+			path = RotationAnimation;
+			sourceTree = "<group>";
+		};
+		C0A5A7F41A7ECD3D007D73DF /* TransitionAniamtions */ = {
+			isa = PBXGroup;
+			children = (
+				C0A5A7F51A7ECD3D007D73DF /* RAMTransitionItemAnimation.swift */,
+			);
+			path = TransitionAniamtions;
+			sourceTree = "<group>";
+		};
+		C0A5A84A1A7ECDB6007D73DF /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C0A5A7DC1A7ECCB7007D73DF /* CoreLocation.framework */,
+				C0A5A7EB1A7ECD3D007D73DF /* Animations */,
+				C0A5A7DA1A7ECCB1007D73DF /* MapKit.framework */,
+				C0A5A7D81A7ECCA9007D73DF /* AVFoundation.framework */,
+				C0A5A7D61A7ECCA3007D73DF /* CoreData.framework */,
+				C0A5A7D41A7ECC9D007D73DF /* CoreText.framework */,
+				C0A5A7D21A7ECC96007D73DF /* GLKit.framework */,
+				C0A5A7D01A7ECC90007D73DF /* ImageIO.framework */,
+				C0A5A7CE1A7ECC89007D73DF /* libc++.dylib */,
+				C0A5A7CC1A7ECC7D007D73DF /* libicucore.dylib */,
+				C0A5A8481A7ECD7D007D73DF /* ToolsAnimation.plist */,
+				C0A5A7E31A7ECD21007D73DF /* RAMAnimatedTabBarController.swift */,
+				C0A5A7E41A7ECD21007D73DF /* RAMItemAnimationProtocol.swift */,
+				C0A5A7E51A7ECD21007D73DF /* CHCSVParser.h */,
+				C0A5A7E61A7ECD21007D73DF /* CHCSVParser.m */,
+				C0A5A7CA1A7ECC75007D73DF /* libz.dylib */,
+				C0A5A7E01A7ECD0A007D73DF /* GoogleMaps.framework */,
+				C0A5A7DE1A7ECCD0007D73DF /* GoogleMaps.bundle */,
+				C0A5A7C81A7ECC6E007D73DF /* OpenGLES.framework */,
+				C0A5A7C61A7ECC69007D73DF /* QuartzCore.framework */,
+				C0A5A7C41A7ECC63007D73DF /* SystemConfiguration.framework */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0A5A79B1A7ECBFC007D73DF /* UniversityFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0A5A7BE1A7ECBFC007D73DF /* Build configuration list for PBXNativeTarget "UniversityFinder" */;
+			buildPhases = (
+				C0A5A7981A7ECBFC007D73DF /* Sources */,
+				C0A5A7991A7ECBFC007D73DF /* Frameworks */,
+				C0A5A79A1A7ECBFC007D73DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UniversityFinder;
+			productName = UniversityFinder;
+			productReference = C0A5A79C1A7ECBFC007D73DF /* UniversityFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0A5A7B31A7ECBFC007D73DF /* UniversityFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0A5A7C11A7ECBFC007D73DF /* Build configuration list for PBXNativeTarget "UniversityFinderTests" */;
+			buildPhases = (
+				C0A5A7B01A7ECBFC007D73DF /* Sources */,
+				C0A5A7B11A7ECBFC007D73DF /* Frameworks */,
+				C0A5A7B21A7ECBFC007D73DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0A5A7B61A7ECBFC007D73DF /* PBXTargetDependency */,
+			);
+			name = UniversityFinderTests;
+			productName = UniversityFinderTests;
+			productReference = C0A5A7B41A7ECBFC007D73DF /* UniversityFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0A5A7941A7ECBFC007D73DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Succeed America";
+				TargetAttributes = {
+					C0A5A79B1A7ECBFC007D73DF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C0A5A7B31A7ECBFC007D73DF = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C0A5A79B1A7ECBFC007D73DF;
+					};
+				};
+			};
+			buildConfigurationList = C0A5A7971A7ECBFC007D73DF /* Build configuration list for PBXProject "UniversityFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0A5A7931A7ECBFC007D73DF;
+			productRefGroup = C0A5A79D1A7ECBFC007D73DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0A5A79B1A7ECBFC007D73DF /* UniversityFinder */,
+				C0A5A7B31A7ECBFC007D73DF /* UniversityFinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0A5A79A1A7ECBFC007D73DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A5A84C1A7ECE44007D73DF /* 1.csv in Resources */,
+				C0A5A84E1A7ECE49007D73DF /* CS.csv in Resources */,
+				C0A5A7AA1A7ECBFC007D73DF /* Main.storyboard in Resources */,
+				C0A5A7AF1A7ECBFC007D73DF /* LaunchScreen.xib in Resources */,
+				C0A5A8491A7ECD7D007D73DF /* ToolsAnimation.plist in Resources */,
+				C0A5A7AC1A7ECBFC007D73DF /* Images.xcassets in Resources */,
+				C0A5A7DF1A7ECCD0007D73DF /* GoogleMaps.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A5A7B21A7ECBFC007D73DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0A5A7981A7ECBFC007D73DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A5A8221A7ECD3D007D73DF /* RAMTransitionItemAnimation.swift in Sources */,
+				C0A5A81F1A7ECD3D007D73DF /* RAMFrameItemAnimation.swift in Sources */,
+				C0A5A8571A7ED021007D73DF /* RankingCollectionViewCell.swift in Sources */,
+				C0A5A81E1A7ECD3D007D73DF /* RAMBounceAnimation.swift in Sources */,
+				C0A5A7E71A7ECD21007D73DF /* RAMAnimatedTabBarController.swift in Sources */,
+				C0A5A8201A7ECD3D007D73DF /* RAMFumeAnimation.swift in Sources */,
+				C0A5A7E91A7ECD21007D73DF /* CHCSVParser.m in Sources */,
+				C0A5A8561A7ED021007D73DF /* MapViewController.swift in Sources */,
+				C0A5A7A21A7ECBFC007D73DF /* AppDelegate.swift in Sources */,
+				C0A5A85A1A7ED021007D73DF /* SchoolDetailViewController.swift in Sources */,
+				C0A5A7A51A7ECBFC007D73DF /* UniversityFinder.xcdatamodeld in Sources */,
+				C0A5A85C1A7ED021007D73DF /* SchoolStreetViewController.swift in Sources */,
+				C0A5A85B1A7ED021007D73DF /* SchoolSearchTableViewController.swift in Sources */,
+				C0A5A7E81A7ECD21007D73DF /* RAMItemAnimationProtocol.swift in Sources */,
+				C0A5A8211A7ECD3D007D73DF /* RAMRotationAnimation.swift in Sources */,
+				C0A5A8591A7ED021007D73DF /* School.swift in Sources */,
+				C0A5A8581A7ED021007D73DF /* RankingCollectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A5A7B01A7ECBFC007D73DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A5A7BB1A7ECBFC007D73DF /* UniversityFinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0A5A7B61A7ECBFC007D73DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0A5A79B1A7ECBFC007D73DF /* UniversityFinder */;
+			targetProxy = C0A5A7B51A7ECBFC007D73DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0A5A7A81A7ECBFC007D73DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0A5A7A91A7ECBFC007D73DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0A5A7AD1A7ECBFC007D73DF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0A5A7AE1A7ECBFC007D73DF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0A5A7BC1A7ECBFC007D73DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0A5A7BD1A7ECBFC007D73DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0A5A7BF1A7ECBFC007D73DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"/Users/geleichen/Desktop/University-Finder-master",
+				);
+				INFOPLIST_FILE = UniversityFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UniversityFinder-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0A5A7C01A7ECBFC007D73DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"/Users/geleichen/Desktop/University-Finder-master",
+				);
+				INFOPLIST_FILE = UniversityFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UniversityFinder-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		C0A5A7C21A7ECBFC007D73DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UniversityFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UniversityFinder.app/UniversityFinder";
+			};
+			name = Debug;
+		};
+		C0A5A7C31A7ECBFC007D73DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UniversityFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UniversityFinder.app/UniversityFinder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0A5A7971A7ECBFC007D73DF /* Build configuration list for PBXProject "UniversityFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A5A7BC1A7ECBFC007D73DF /* Debug */,
+				C0A5A7BD1A7ECBFC007D73DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0A5A7BE1A7ECBFC007D73DF /* Build configuration list for PBXNativeTarget "UniversityFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A5A7BF1A7ECBFC007D73DF /* Debug */,
+				C0A5A7C01A7ECBFC007D73DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0A5A7C11A7ECBFC007D73DF /* Build configuration list for PBXNativeTarget "UniversityFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A5A7C21A7ECBFC007D73DF /* Debug */,
+				C0A5A7C31A7ECBFC007D73DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C0A5A7A31A7ECBFC007D73DF /* UniversityFinder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C0A5A7A41A7ECBFC007D73DF /* UniversityFinder.xcdatamodel */,
+			);
+			currentVersion = C0A5A7A41A7ECBFC007D73DF /* UniversityFinder.xcdatamodel */;
+			path = UniversityFinder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C0A5A7941A7ECBFC007D73DF /* Project object */;
+}
