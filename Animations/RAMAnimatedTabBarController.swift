@@ -29,7 +29,7 @@ class RAMAnimatedTabBarItem: UITabBarItem {
 
     func playAnimation(icon: UIImageView, textLabel: UILabel) {
 
-//    assert(animation != nil, "add animation in UITabBarItem")
+        assert(animation != nil, "add animation in UITabBarItem")
         if animation != nil {
             animation.playAnimation(icon, textLabel: textLabel)
         }

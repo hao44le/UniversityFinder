@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>007FC6B6-CA0A-47EB-9E08-94A7A37EE0AF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UniversityFinder</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4D32FE872D46939C5C6B3B62EBC4BB755F3ABCC1</key>
+		<string>https://github.com/hao44le/UniversityFinder.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UniversityFinder.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4D32FE872D46939C5C6B3B62EBC4BB755F3ABCC1</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hao44le/UniversityFinder.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4D32FE872D46939C5C6B3B62EBC4BB755F3ABCC1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4D32FE872D46939C5C6B3B62EBC4BB755F3ABCC1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UniversityFinder</string>
+		</dict>
+	</array>
+</dict>
+</plist>
