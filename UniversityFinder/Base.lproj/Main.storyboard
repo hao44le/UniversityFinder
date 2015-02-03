@@ -200,13 +200,13 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Lpy-x1-XAg">
-                                            <rect key="frame" x="8" y="8" width="196" height="172"/>
+                                            <rect key="frame" x="8" y="8" width="196" height="152"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="172" id="wud-To-PvC"/>
+                                                <constraint firstAttribute="height" constant="152" id="wud-To-PvC"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rcd-mn-Dbx">
-                                            <rect key="frame" x="8" y="190" width="196" height="32"/>
+                                            <rect key="frame" x="8" y="168" width="196" height="54"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
@@ -221,7 +221,7 @@
                                     <constraint firstItem="Rcd-mn-Dbx" firstAttribute="leading" secondItem="6MW-RF-7B3" secondAttribute="leadingMargin" id="k6B-RJ-tyw"/>
                                     <constraint firstItem="Lpy-x1-XAg" firstAttribute="trailing" secondItem="6MW-RF-7B3" secondAttribute="trailingMargin" id="mUD-jx-V7J"/>
                                     <constraint firstItem="Lpy-x1-XAg" firstAttribute="trailing" secondItem="Rcd-mn-Dbx" secondAttribute="trailing" id="skq-kc-lL2"/>
-                                    <constraint firstItem="Rcd-mn-Dbx" firstAttribute="top" secondItem="Lpy-x1-XAg" secondAttribute="bottom" constant="10" id="uS3-W4-UMy"/>
+                                    <constraint firstItem="Rcd-mn-Dbx" firstAttribute="top" secondItem="Lpy-x1-XAg" secondAttribute="bottom" constant="8" id="uS3-W4-UMy"/>
                                 </constraints>
                                 <connections>
                                     <outlet property="image" destination="Lpy-x1-XAg" id="Hu2-gl-pPW"/>

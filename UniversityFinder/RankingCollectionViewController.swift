@@ -75,7 +75,7 @@ class RankingCollectionViewController: UICollectionViewController,UICollectionVi
     func collectionView(collectionView: UICollectionView!,
         layout collectionViewLayout: UICollectionViewLayout!,
         sizeForItemAtIndexPath indexPath: NSIndexPath!) -> CGSize {
-            return CGSize(width: 170, height: 300)
+            return CGSize(width: 130, height: 250)
     }
     
     func collectionView(collectionView: UICollectionView!,
