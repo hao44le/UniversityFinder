@@ -10,9 +10,10 @@ import UIKit
 
 
 
-class RankingCollectionViewController: UICollectionViewController {
+class RankingCollectionViewController: UICollectionViewController,UICollectionViewDelegateFlowLayout {
     let reuseIdentifier = "cell"
-
+    let sectionInsets = UIEdgeInsets(top: 10.0, left: 10.0, bottom: 10.0, right: 10.0)
+    let titles = ["Sand Harbor, Lake Tahoe - California","Beautiful View of Manhattan skyline.","Watcher in the Fog","Great Smoky Mountains National Park, Tennessee","Most beautiful place"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,15 +32,16 @@ class RankingCollectionViewController: UICollectionViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using [segue destinationViewController].
         // Pass the selected object to the new view controller.
+        
     }
-    */
+    
 
     // MARK: UICollectionViewDataSource
 
@@ -51,18 +53,37 @@ class RankingCollectionViewController: UICollectionViewController {
 
     override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         //#warning Incomplete method implementation -- Return the number of items in the section
-        return 1
+        return 50
     }
 
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as RankingCollectionViewCell
+            let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as RankingCollectionViewCell
+            cell.label.text = self.titles[indexPath.row % 5]
+            let curr = indexPath.row % 5  + 1
+            let imgName = "pin\(curr).jpg"
+            cell.image.image = UIImage(named: imgName)
+            return cell
         
         
         
         // Configure the cell
     
-        return cell
+        
     }
+    
+    
+    func collectionView(collectionView: UICollectionView!,
+        layout collectionViewLayout: UICollectionViewLayout!,
+        sizeForItemAtIndexPath indexPath: NSIndexPath!) -> CGSize {
+            return CGSize(width: 170, height: 300)
+    }
+    
+    func collectionView(collectionView: UICollectionView!,
+        layout collectionViewLayout: UICollectionViewLayout!,
+        insetForSectionAtIndex section: Int) -> UIEdgeInsets {
+            return sectionInsets
+    }
+
 
     // MARK: UICollectionViewDelegate
 

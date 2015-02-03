@@ -177,15 +177,16 @@
             </objects>
             <point key="canvasLocation" x="2666" y="786"/>
         </scene>
-        <!--Ranking Collection View Controller-->
+        <!--University Ranking-->
         <scene sceneID="Aej-PH-cZT">
             <objects>
                 <collectionViewController id="jNF-L0-yQo" customClass="RankingCollectionViewController" customModule="UniversityFinder" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="ZLh-PU-dar">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="prototypes" id="ZLh-PU-dar">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="qgi-TB-mIm">
-                            <size key="itemSize" width="141" height="127"/>
+                            <size key="itemSize" width="212" height="230"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -195,32 +196,32 @@
                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="141" height="127"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="212" height="230"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rcd-mn-Dbx">
-                                            <rect key="frame" x="8" y="98" width="125" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Lpy-x1-XAg">
-                                            <rect key="frame" x="35" y="32" width="71" height="64"/>
+                                            <rect key="frame" x="8" y="8" width="196" height="172"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="64" id="YVL-sZ-bI9"/>
+                                                <constraint firstAttribute="height" constant="172" id="wud-To-PvC"/>
                                             </constraints>
                                         </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rcd-mn-Dbx">
+                                            <rect key="frame" x="8" y="190" width="196" height="32"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <constraints>
-                                    <constraint firstItem="Lpy-x1-XAg" firstAttribute="top" secondItem="6MW-RF-7B3" secondAttribute="topMargin" constant="24" id="Xs7-3h-wKS"/>
+                                    <constraint firstItem="Lpy-x1-XAg" firstAttribute="top" secondItem="6MW-RF-7B3" secondAttribute="topMargin" id="Ehp-iM-E2h"/>
                                     <constraint firstItem="Rcd-mn-Dbx" firstAttribute="bottom" secondItem="6MW-RF-7B3" secondAttribute="bottomMargin" id="cu5-pd-Ssv"/>
+                                    <constraint firstItem="Lpy-x1-XAg" firstAttribute="leading" secondItem="Rcd-mn-Dbx" secondAttribute="leading" id="f5T-8V-g9W"/>
                                     <constraint firstItem="Rcd-mn-Dbx" firstAttribute="leading" secondItem="6MW-RF-7B3" secondAttribute="leadingMargin" id="k6B-RJ-tyw"/>
-                                    <constraint firstItem="Lpy-x1-XAg" firstAttribute="centerX" secondItem="6MW-RF-7B3" secondAttribute="centerX" id="lYc-D7-UCm"/>
-                                    <constraint firstItem="Rcd-mn-Dbx" firstAttribute="centerX" secondItem="Lpy-x1-XAg" secondAttribute="centerX" id="maj-Tw-fM7"/>
-                                    <constraint firstItem="Lpy-x1-XAg" firstAttribute="leading" secondItem="6MW-RF-7B3" secondAttribute="leadingMargin" constant="27" id="riM-YX-UoB"/>
-                                    <constraint firstItem="Rcd-mn-Dbx" firstAttribute="top" secondItem="Lpy-x1-XAg" secondAttribute="bottom" constant="2" id="v8U-sZ-9vy"/>
+                                    <constraint firstItem="Lpy-x1-XAg" firstAttribute="trailing" secondItem="6MW-RF-7B3" secondAttribute="trailingMargin" id="mUD-jx-V7J"/>
+                                    <constraint firstItem="Lpy-x1-XAg" firstAttribute="trailing" secondItem="Rcd-mn-Dbx" secondAttribute="trailing" id="skq-kc-lL2"/>
+                                    <constraint firstItem="Rcd-mn-Dbx" firstAttribute="top" secondItem="Lpy-x1-XAg" secondAttribute="bottom" constant="10" id="uS3-W4-UMy"/>
                                 </constraints>
                                 <connections>
                                     <outlet property="image" destination="Lpy-x1-XAg" id="Hu2-gl-pPW"/>
@@ -233,11 +234,11 @@
                             <outlet property="delegate" destination="jNF-L0-yQo" id="uSL-He-UAi"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" id="JB7-6j-GCb"/>
+                    <navigationItem key="navigationItem" title="University Ranking" id="JB7-6j-GCb"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oaO-T2-5lE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3435" y="786"/>
+            <point key="canvasLocation" x="3434" y="786"/>
         </scene>
         <!--School Detail View Controller-->
         <scene sceneID="mDO-AK-dZi">
@@ -319,6 +320,6 @@
         <image name="watermark_dark.png" width="56" height="21"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="H8n-Dx-zBS"/>
+        <segue reference="b4X-vm-oXP"/>
     </inferredMetricsTieBreakers>
 </document>

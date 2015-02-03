@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C01A0E391A805C7500865A30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01A0E381A805C7500865A30 /* CoreGraphics.framework */; };
+		C01A0E3B1A805C8500865A30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01A0E3A1A805C8500865A30 /* UIKit.framework */; };
+		C01A0E3D1A805C8C00865A30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01A0E3C1A805C8C00865A30 /* Foundation.framework */; };
 		C0A5A7A21A7ECBFC007D73DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A5A7A11A7ECBFC007D73DF /* AppDelegate.swift */; };
 		C0A5A7A51A7ECBFC007D73DF /* UniversityFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0A5A7A31A7ECBFC007D73DF /* UniversityFinder.xcdatamodeld */; };
 		C0A5A7AA1A7ECBFC007D73DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A5A7A81A7ECBFC007D73DF /* Main.storyboard */; };
@@ -38,6 +41,11 @@
 		C0A5A85A1A7ED021007D73DF /* SchoolDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A5A8531A7ED021007D73DF /* SchoolDetailViewController.swift */; };
 		C0A5A85B1A7ED021007D73DF /* SchoolSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A5A8541A7ED021007D73DF /* SchoolSearchTableViewController.swift */; };
 		C0A5A85C1A7ED021007D73DF /* SchoolStreetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A5A8551A7ED021007D73DF /* SchoolStreetViewController.swift */; };
+		C0EF884B1A7F148600421A42 /* pin1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0EF88461A7F148600421A42 /* pin1.jpg */; };
+		C0EF884C1A7F148600421A42 /* pin3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0EF88471A7F148600421A42 /* pin3.jpg */; };
+		C0EF884D1A7F148600421A42 /* pin2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0EF88481A7F148600421A42 /* pin2.jpg */; };
+		C0EF884E1A7F148600421A42 /* pin4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0EF88491A7F148600421A42 /* pin4.jpg */; };
+		C0EF884F1A7F148600421A42 /* pin5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0EF884A1A7F148600421A42 /* pin5.jpg */; };
 		C0F9D1FA1A7ED291009059DC /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F9D1F11A7ED291009059DC /* RAMBounceAnimation.swift */; };
 		C0F9D1FB1A7ED291009059DC /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F9D1F31A7ED291009059DC /* RAMFrameItemAnimation.swift */; };
 		C0F9D1FC1A7ED291009059DC /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F9D1F51A7ED291009059DC /* RAMFumeAnimation.swift */; };
@@ -58,6 +66,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C01A0E381A805C7500865A30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C01A0E3A1A805C8500865A30 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C01A0E3C1A805C8C00865A30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C0A5A79C1A7ECBFC007D73DF /* UniversityFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversityFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A5A7A01A7ECBFC007D73DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0A5A7A11A7ECBFC007D73DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +106,11 @@
 		C0A5A8531A7ED021007D73DF /* SchoolDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolDetailViewController.swift; sourceTree = "<group>"; };
 		C0A5A8541A7ED021007D73DF /* SchoolSearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolSearchTableViewController.swift; sourceTree = "<group>"; };
 		C0A5A8551A7ED021007D73DF /* SchoolStreetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolStreetViewController.swift; sourceTree = "<group>"; };
+		C0EF88461A7F148600421A42 /* pin1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pin1.jpg; sourceTree = "<group>"; };
+		C0EF88471A7F148600421A42 /* pin3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pin3.jpg; sourceTree = "<group>"; };
+		C0EF88481A7F148600421A42 /* pin2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pin2.jpg; sourceTree = "<group>"; };
+		C0EF88491A7F148600421A42 /* pin4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pin4.jpg; sourceTree = "<group>"; };
+		C0EF884A1A7F148600421A42 /* pin5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pin5.jpg; sourceTree = "<group>"; };
 		C0F9D1F11A7ED291009059DC /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBounceAnimation.swift; sourceTree = "<group>"; };
 		C0F9D1F31A7ED291009059DC /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
 		C0F9D1F51A7ED291009059DC /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFumeAnimation.swift; sourceTree = "<group>"; };
@@ -109,6 +125,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C01A0E3D1A805C8C00865A30 /* Foundation.framework in Frameworks */,
+				C01A0E3B1A805C8500865A30 /* UIKit.framework in Frameworks */,
+				C01A0E391A805C7500865A30 /* CoreGraphics.framework in Frameworks */,
 				C0A5A7DD1A7ECCB7007D73DF /* CoreLocation.framework in Frameworks */,
 				C0A5A7DB1A7ECCB1007D73DF /* MapKit.framework in Frameworks */,
 				C0A5A7D91A7ECCA9007D73DF /* AVFoundation.framework in Frameworks */,
@@ -179,6 +198,11 @@
 		C0A5A79F1A7ECBFC007D73DF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C0EF88461A7F148600421A42 /* pin1.jpg */,
+				C0EF88471A7F148600421A42 /* pin3.jpg */,
+				C0EF88481A7F148600421A42 /* pin2.jpg */,
+				C0EF88491A7F148600421A42 /* pin4.jpg */,
+				C0EF884A1A7F148600421A42 /* pin5.jpg */,
 				C0A5A84B1A7ECE44007D73DF /* 1.csv */,
 				C0A5A84D1A7ECE49007D73DF /* CS.csv */,
 				C0A5A7A01A7ECBFC007D73DF /* Info.plist */,
@@ -206,6 +230,9 @@
 		C0A5A84A1A7ECDB6007D73DF /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				C01A0E3C1A805C8C00865A30 /* Foundation.framework */,
+				C01A0E3A1A805C8500865A30 /* UIKit.framework */,
+				C01A0E381A805C7500865A30 /* CoreGraphics.framework */,
 				C0F9D1EF1A7ED291009059DC /* Animations */,
 				C0A5A7DC1A7ECCB7007D73DF /* CoreLocation.framework */,
 				C0A5A7DA1A7ECCB1007D73DF /* MapKit.framework */,
@@ -363,11 +390,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0A5A84C1A7ECE44007D73DF /* 1.csv in Resources */,
+				C0EF884C1A7F148600421A42 /* pin3.jpg in Resources */,
+				C0EF884B1A7F148600421A42 /* pin1.jpg in Resources */,
 				C0A5A84E1A7ECE49007D73DF /* CS.csv in Resources */,
+				C0EF884D1A7F148600421A42 /* pin2.jpg in Resources */,
 				C0A5A7AA1A7ECBFC007D73DF /* Main.storyboard in Resources */,
+				C0EF884E1A7F148600421A42 /* pin4.jpg in Resources */,
 				C0A5A7AF1A7ECBFC007D73DF /* LaunchScreen.xib in Resources */,
 				C0A5A7AC1A7ECBFC007D73DF /* Images.xcassets in Resources */,
 				C0A5A7DF1A7ECCD0007D73DF /* GoogleMaps.bundle in Resources */,
+				C0EF884F1A7F148600421A42 /* pin5.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
