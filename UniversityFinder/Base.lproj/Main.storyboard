@@ -226,6 +226,7 @@
                                 <connections>
                                     <outlet property="image" destination="Lpy-x1-XAg" id="Hu2-gl-pPW"/>
                                     <outlet property="label" destination="Rcd-mn-Dbx" id="OdC-Ly-boL"/>
+                                    <segue destination="qJ7-Zs-IDL" kind="show" id="qb2-Pv-eK0"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -239,6 +240,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oaO-T2-5lE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3434" y="786"/>
+        </scene>
+        <!--Ranking Detail Table View Controller-->
+        <scene sceneID="3y2-1j-3Vg">
+            <objects>
+                <tableViewController id="qJ7-Zs-IDL" customClass="RankingDetailTableViewController" customModule="UniversityFinder" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="vyG-KD-tzf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="jnw-MK-pp7">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jnw-MK-pp7" id="Jm4-rm-9xl">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="Arv-9W-1nH" kind="show" identifier="schoolDetail" id="eUG-CR-J6Z"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="qJ7-Zs-IDL" id="pkb-y5-h6P"/>
+                            <outlet property="delegate" destination="qJ7-Zs-IDL" id="5am-ep-A1h"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WSa-T8-5hx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4232" y="786"/>
         </scene>
         <!--School Detail View Controller-->
         <scene sceneID="mDO-AK-dZi">
@@ -320,6 +350,6 @@
         <image name="watermark_dark.png" width="56" height="21"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="b4X-vm-oXP"/>
+        <segue reference="eUG-CR-J6Z"/>
     </inferredMetricsTieBreakers>
 </document>

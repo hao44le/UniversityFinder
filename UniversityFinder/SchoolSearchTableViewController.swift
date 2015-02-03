@@ -160,4 +160,5 @@ class SchoolSearchTableViewController : UITableViewController, UISearchBarDelega
             viewController.currentSchool = currentSchool
         }
         
-    }}
+    }
+}
