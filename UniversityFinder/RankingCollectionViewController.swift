@@ -115,5 +115,5 @@ class RankingCollectionViewController: UICollectionViewController,UICollectionVi
     
     }
     */
-
+    
 }

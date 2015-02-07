@@ -10,10 +10,27 @@ import UIKit
 import CoreLocation
 import MapKit
 
-class MapViewController: UIViewController,CLLocationManagerDelegate,MKMapViewDelegate {
+class MapViewController: UIViewController,CLLocationManagerDelegate,MKMapViewDelegate{
 
-    
+
     var currentSchool:School?
+    @IBOutlet weak var mapView: MKMapView!
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
+    
+    @IBAction func indexChanged(sender: UISegmentedControl) {
+        switch segmentedControl.selectedSegmentIndex
+        {
+        case 0:
+            mapView.mapType = MKMapType.Standard
+            break
+        case 1:
+            mapView.mapType = MKMapType.Satellite
+            break
+        default:
+            mapView.mapType = MKMapType.Standard
+            break;
+        }
+    }
     
 
     let schools: [School] = [
@@ -28,19 +45,19 @@ class MapViewController: UIViewController,CLLocationManagerDelegate,MKMapViewDel
 
 
    
-    let mapView = MKMapView(frame: CGRectZero)
+    
     let locationManager = CLLocationManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        //self.mapView = MKMapView(frame: CGRectZero)
 
         self.locationManager.requestWhenInUseAuthorization()
         
         mapView.setRegion(MKCoordinateRegionMakeWithDistance(CLLocationCoordinate2DMake(38.8833, -96.917633), 5000000, 5000000), animated: true)
         mapView.delegate = self
-        mapView.showsUserLocation = true
-        self.view = mapView
+        self.mapView.showsUserLocation = true
+        //self.view = mapView
         
         
         
@@ -112,6 +129,9 @@ class MapViewController: UIViewController,CLLocationManagerDelegate,MKMapViewDel
         let zoomRegion = MKCoordinateRegionMakeWithDistance(myLocation,500000,500000)
         self.mapView.setRegion(zoomRegion, animated: true)
     }
+    
+        
+
 
 }
 
